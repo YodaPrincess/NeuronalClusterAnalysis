@@ -24,10 +24,10 @@ library(pheatmap)
 # I need to change the plots so they show the same as they showed for Astrocytes, also maybe we first look on at 0.1 and 35 pcs 
 # Load data ----
 # Update these paths with the exact names of your RDS files
-# Aqp4_neurons_0_1_30 <- readRDS("E:/Perstat/Data/Aqp4_neurons_0.1_30.rds")
-neuronsData <- readRDS('C:/Users/yperstat/Desktop/Code/sub_neuronal.rds')
+# Aqp4_neurons_0_1_30 <- readRDS("your/path/to/Aqp4_neurons_0.1_30.rds")
+neuronsData <- readRDS('your/path/to/sub_neuronal.rds')
 
-save_neurons_path <- "C:/Users/yperstat/Documents/Studium/IDB_Master/Master_thesis/Coding_Analysis/NeuronClusterAnalysis/plots_for_thesis/"
+save_neurons_path <- "your/path/to/saves"
 
 # Add day and a batch column: 
 # based on the orig.idents column in the meta.data we can know which day and which batch each cell is coming from 
@@ -505,7 +505,7 @@ for (marker_set_name in names(marker_sets)) {
 # Pheatmap to look how similar each cluster to each other is ----
 
 # Define the save path
-save_path <- "E:/Perstat/NeuronsPlots/"
+save_path <- "/your/path/to/save/"
 
 # Check if the directory exists; if not, create it
 if (!dir.exists(save_path)) {
@@ -567,7 +567,7 @@ for (marker_set_name in names(marker_sets)) {
 # Load required libraries
 
 # Define the save path
-save_path <- "E:/Perstat/NeuronsPlots/"
+save_path <- "/your/path/to/save"
 
 # Check if the directory exists; if not, create it
 if (!dir.exists(save_path)) {

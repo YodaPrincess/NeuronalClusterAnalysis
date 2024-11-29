@@ -149,10 +149,10 @@ library(Azimuth)
 
 # Load data ------------
 # Load the Seurat object (adjust the path accordingly)
-Aqp4 <- readRDS("C:/Users/yperstat/Documents/Studium/IDB_Master/Master_thesis/Coding_Analysis/Data/aqp4_all.rds")
+Aqp4 <- readRDS("/path/to/your/own/aqp4_all.rds")
 
 # Save path to folder where you want to save your plots
-save_path <- "C:/Users/yperstat/Documents/Studium/IDB_Master/Master_thesis/Coding_Analysis/NeuronClusterAnalysis/plots/"
+save_path <- "/path/to/save/your/plots/"
 
 # Filter out low quality cells ----
 # Step 1: Preprocess the Data - Filter Mitochondrial Genes and Low-Quality Cells

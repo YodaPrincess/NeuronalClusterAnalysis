@@ -1,2 +1,2 @@
 # NeuronalClusterAnalysis
-Neuronal Cluster Analysis for scRNA-Seq data (mouse brain) 
+This code is utilized for Neuronal Cluster Analysis for scRNA-Seq data (mouse brain).
